@@ -17,6 +17,17 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
+/* Light Theme Header */
+body.light-theme .header {
+  background: rgba(248, 250, 252, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .header.scrolled {
+  background: rgba(248, 250, 252, 0.95);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -24,6 +35,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .logo {
@@ -73,9 +90,90 @@
   border-radius: 50%;
 }
 
+/* Light Theme Nav Links */
+body.light-theme .nav-link {
+  color: #4a5568;
+}
+
+body.light-theme .nav-link:hover {
+  color: #1a202c;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .nav-link.active {
+  color: #3b82f6;
+  background: rgba(59, 130, 246, 0.1);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 10;
+  /* Ensure the button is always interactive */
+  pointer-events: auto;
+  user-select: none;
+}
+
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}
+
+.theme-icon {
+  width: 20px;
+  height: 20px;
+  color: #e0e6ed;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover .theme-icon {
+  color: #ffffff;
+}
+
+/* Light Theme Toggle Button */
+body.light-theme .theme-toggle {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .theme-toggle:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .theme-icon {
+  color: #4a5568;
+}
+
+body.light-theme .theme-toggle:hover .theme-icon {
+  color: #1a202c;
+}
+
 @media (max-width: 768px) {
   .header-container {
     padding: 0 1rem;
+  }
+  
+  .header-right {
+    gap: 1rem;
   }
   
   .nav {
@@ -85,5 +183,15 @@
   .nav-link {
     padding: 0.5rem;
     font-size: 0.9rem;
+  }
+  
+  .theme-toggle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .theme-icon {
+    width: 18px;
+    height: 18px;
   }
 } 

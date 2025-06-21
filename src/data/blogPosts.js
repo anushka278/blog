@@ -232,7 +232,7 @@ Let me know your thoughts or if you would like a discussion to demystify this fu
     date: "2021-01-21",
     tags: ["BSS", "Telecom", "DigitalTransformation", "CloudNative"],
     readTime: "3 min read"
-  }, 
+  },
   {
     id: 8,
     title: "Maximizing ROI with agentX: The Final Dimension",
@@ -299,7 +299,7 @@ TechM agentX enables organizations to maximize ROI by uniting user productivity,
     date: "2025-01-20",
     tags: ["AgentX", "AI", "ROI", "EnterpriseAI"],
     readTime: "7 min read"
-  }, 
+  },
   {
     id: 9,
     title: "The Future of Operational Efficiency with agentX",

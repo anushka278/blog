@@ -335,4 +335,115 @@
   .nav-link {
     padding: 1.5rem;
   }
+}
+
+/* Light Theme Styles */
+body.light-theme .breadcrumb-link {
+  color: #6b7280;
+}
+
+body.light-theme .breadcrumb-current {
+  color: #1f2937;
+}
+
+body.light-theme .post-header .post-meta {
+  color: #6b7280;
+}
+
+body.light-theme .post-title {
+  color: #1f2937;
+}
+
+body.light-theme .content-body {
+  color: #374151;
+}
+
+body.light-theme .content-body .content-paragraph {
+  color: #374151;
+}
+
+body.light-theme .content-body .content-header {
+  color: #1f2937;
+  border-bottom-color: rgba(59, 130, 246, 0.3);
+}
+
+body.light-theme .content-body .content-list li {
+  color: #4b5563;
+}
+
+body.light-theme .content-body strong {
+  color: #1f2937;
+}
+
+body.light-theme .post-actions {
+  border-top-color: rgba(0, 0, 0, 0.1);
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .share-btn {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #374151;
+}
+
+body.light-theme .share-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .nav-link {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .nav-link:hover {
+  background: rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .nav-direction {
+  color: #6b7280;
+}
+
+body.light-theme .nav-title {
+  color: #1f2937;
+}
+
+body.light-theme .related-posts {
+  background: rgba(0, 0, 0, 0.02);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .related-title {
+  color: #1f2937;
+}
+
+body.light-theme .related-card {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .related-card:hover {
+  background: rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+body.light-theme .related-card-title {
+  color: #1f2937;
+}
+
+body.light-theme .related-card-excerpt {
+  color: #4b5563;
+}
+
+body.light-theme .related-card-meta {
+  color: #6b7280;
+}
+
+body.light-theme .not-found h1 {
+  color: #1f2937;
+}
+
+body.light-theme .not-found p {
+  color: #6b7280;
 } 
