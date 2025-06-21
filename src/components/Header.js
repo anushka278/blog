@@ -36,6 +36,12 @@ const Header = ({ isDarkMode, toggleTheme }) => {
             >
               Blog
             </Link>
+            <Link 
+              to="/posts" 
+              className={`nav-link ${location.pathname === '/posts' ? 'active' : ''}`}
+            >
+              Posts
+            </Link>
           </nav>
           
           <button 
