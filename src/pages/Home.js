@@ -156,6 +156,127 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Experience Timeline */}
+      <section className="experience-section">
+        <div className="executive-container">
+          <div className="section-header">
+            <h2 className="section-title">Experience</h2>
+            <p className="section-subtitle">Building enterprise transformation through leadership and innovation</p>
+          </div>
+          
+          <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-marker current">
+                <div className="timeline-icon">🚀</div>
+              </div>
+              <div className="timeline-content">
+                <div className="timeline-company">
+                  <h3>Avolar AI</h3>
+                  <span className="company-duration">2025 - Present</span>
+                </div>
+                <div className="timeline-role">
+                  <h4>Founder & CEO</h4>
+                  <span className="role-duration">Jan 2025 - Present</span>
+                  <span className="role-location">Seattle, WA</span>
+                </div>
+                <div className="timeline-description">
+                  <p>Leading AI transformation initiatives and building next-generation enterprise AI solutions. Focus on democratizing AI through intelligent automation and strategic ecosystem development.</p>
+                </div>
+                <div className="timeline-skills">
+                  <span className="skill-tag">AI Strategy</span>
+                  <span className="skill-tag">Entrepreneurship</span>
+                  <span className="skill-tag">Product Leadership</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-marker">
+                <div className="timeline-icon">🔧</div>
+              </div>
+              <div className="timeline-content">
+                <div className="timeline-company">
+                  <h3>Tech Mahindra</h3>
+                  <span className="company-duration">2021 - 2024 · 3 yrs 11 mos</span>
+                </div>
+                <div className="timeline-roles">
+                  <div className="timeline-role">
+                    <h4>Business Head - Product AI</h4>
+                    <span className="role-duration">Jan 2024 - Dec 2024 · 1 yr</span>
+                    <span className="role-location">Redmond, WA</span>
+                    <div className="timeline-description">
+                      <p>Led enterprise transformation through AI productivity tools from hyperscalers. Focused on driving workforce excellence and enhancing enterprise productivity through strategic AI integration and optimizing investment returns via agentX platform.</p>
+                    </div>
+                  </div>
+                  <div className="timeline-role">
+                    <h4>Global Head, Cloud Business</h4>
+                    <span className="role-duration">Aug 2021 - Apr 2024 · 2 yrs 9 mos</span>
+                    <span className="role-location">Seattle, WA</span>
+                  </div>
+                </div>
+                <div className="timeline-skills">
+                  <span className="skill-tag">AI & Emerging Tech</span>
+                  <span className="skill-tag">Business Partnerships</span>
+                  <span className="skill-tag">P&L Management</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-marker">
+                <div className="timeline-icon">💼</div>
+              </div>
+              <div className="timeline-content">
+                <div className="timeline-company">
+                  <h3>Infosys</h3>
+                  <span className="company-duration">2003 - 2021 · 18 yrs 7 mos</span>
+                </div>
+                <div className="timeline-roles">
+                  <div className="timeline-role">
+                    <h4>Associate Vice President, Client Partner & Delivery</h4>
+                    <span className="role-duration">Jan 2020 - Jul 2021 · 1 yr 7 mos</span>
+                    <span className="role-location">Seattle, WA</span>
+                    <div className="timeline-description">
+                      <p>Led sourcing and transformation journey for TELCOs and Technology Titans. Managed business growth, defined GTM Strategy, and built partnerships through consultative problem-solving approach.</p>
+                    </div>
+                  </div>
+                  <div className="timeline-role">
+                    <h4>Associate Vice President - Partner Ecosystem</h4>
+                    <span className="role-duration">Jan 2017 - Dec 2019 · 3 yrs</span>
+                    <span className="role-location">Seattle, WA</span>
+                    <div className="timeline-description">
+                      <p>Established partnerships with world's most visible tech companies. Cultivated billion-dollar partnership ecosystem and enabled Infosys to become top U.S. partner globally.</p>
+                    </div>
+                  </div>
+                  <div className="timeline-role">
+                    <h4>Sr. Director, Delivery & Solutions / Data Science and Analytics</h4>
+                    <span className="role-duration">Jan 2014 - Dec 2016 · 3 yrs</span>
+                    <span className="role-location">Seattle, WA</span>
+                    <div className="timeline-description">
+                      <p>Led development of internal startup focused on Data Science, Analytics, Machine Learning, and AI. Secured capital funding and developed high-performing global teams.</p>
+                    </div>
+                  </div>
+                  <div className="timeline-role">
+                    <h4>Sr. Engagement Manager - Enterprise Accounts</h4>
+                    <span className="role-duration">Jan 2010 - Dec 2013 · 4 yrs</span>
+                  </div>
+                  <div className="timeline-role">
+                    <h4>Group Program Manager</h4>
+                    <span className="role-duration">Jan 2003 - Dec 2009 · 7 yrs</span>
+                  </div>
+                </div>
+                <div className="timeline-skills">
+                  <span className="skill-tag">Global Partnerships</span>
+                  <span className="skill-tag">Digital Transformation</span>
+                  <span className="skill-tag">Data Science & Analytics</span>
+                  <span className="skill-tag">Enterprise Solutions</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Latest Insights */}
       <section className="insights-section">
         <div className="executive-container">
