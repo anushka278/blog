@@ -177,7 +177,7 @@
   position: absolute;
   left: 0;
   top: -0.5rem;
-  font-family: serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .philosophy-grid {
@@ -951,5 +951,6 @@ body.light-theme .company-duration {
   .philosophy-quote blockquote::before {
     font-size: 3rem;
     top: -0.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 } 
