@@ -9,9 +9,9 @@ import './App.css';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Initialize theme from localStorage or default to dark
+    // Initialize theme from localStorage or default to light
     const savedTheme = localStorage.getItem('theme');
-    const isDark = savedTheme ? savedTheme === 'dark' : true;
+    const isDark = savedTheme ? savedTheme === 'dark' : false;
     
     // Apply theme to body immediately
     document.body.className = isDark ? 'dark-theme' : 'light-theme';

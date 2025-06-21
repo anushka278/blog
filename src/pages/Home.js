@@ -27,10 +27,10 @@ const Home = () => {
                   Amit <span className="name-accent">Kaistha</span>
                 </h1>
                 <div className="executive-title">
-                  Business Head - Product AI
+                  Founder & CEO
                 </div>
                 <div className="executive-company">
-                  Tech Mahindra | Redmond, WA
+                  Avolar AI | Seattle, WA
                 </div>
               </div>
               
