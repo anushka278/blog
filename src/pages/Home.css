@@ -595,7 +595,7 @@ body.light-theme .contact-section {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  padding: 4rem 0;
+  padding: 3rem 0;
   overflow-x: auto;
   overflow-y: visible;
 }
@@ -605,7 +605,7 @@ body.light-theme .contact-section {
   position: absolute;
   left: 0;
   right: 0;
-  top: 120px;
+  top: 100px;
   height: 4px;
   background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
   border-radius: 2px;
@@ -635,7 +635,7 @@ body.light-theme .contact-section {
   align-items: center;
   justify-content: center;
   z-index: 3;
-  top: 80px;
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0 6px 25px rgba(59, 130, 246, 0.4);
@@ -667,12 +667,12 @@ body.light-theme .contact-section {
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 24px;
-  padding: 3rem 2.5rem;
-  margin-top: 200px;
+  padding: 2rem 2.5rem;
+  margin-top: 180px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   position: relative;
-  min-height: 450px;
+  min-height: 320px;
   width: 100%;
 }
 
@@ -697,8 +697,8 @@ body.light-theme .contact-section {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
   border-bottom: 2px solid #f1f5f9;
 }
 
@@ -719,11 +719,11 @@ body.light-theme .contact-section {
 }
 
 .timeline-roles {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .timeline-role {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .timeline-role:last-child {
@@ -765,7 +765,7 @@ body.light-theme .contact-section {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .skill-tag {
