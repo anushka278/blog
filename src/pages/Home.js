@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { blogPosts } from '../data/blogPosts';
+import { educationData, certificationsData } from '../data/profileData';
 import './Home.css';
 
 const Home = () => {
@@ -27,10 +28,10 @@ const Home = () => {
                   Amit <span className="name-accent">Kaistha</span>
                 </h1>
                 <div className="executive-title">
-                  Founder & CEO
+                  Founder @ Avolar
                 </div>
                 <div className="executive-company">
-                  Avolar AI | Seattle, WA
+                  Steering from Day Zero | Seattle, WA
                 </div>
               </div>
               
@@ -273,6 +274,97 @@ const Home = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Education Section */}
+      <section className="education-section">
+        <div className="executive-container">
+          <div className="section-header">
+            <h2 className="section-title">Education</h2>
+            <p className="section-subtitle">Academic foundation building leadership and technology expertise</p>
+          </div>
+          
+          <div className="education-grid">
+            {educationData.map((education, index) => (
+              <div key={index} className="education-card">
+                <div className="education-header">
+                  <div className="education-icon">🎓</div>
+                  <div className="education-content">
+                    <h3 className="education-school">{education.schoolName}</h3>
+                    <div className="education-degree">{education.degreeName}</div>
+                    {education.startDate && education.endDate && (
+                      <div className="education-dates">
+                        {education.startDate} - {education.endDate}
+                      </div>
+                    )}
+                  </div>
+                </div>
+                {education.notes && (
+                  <p className="education-notes">{education.notes}</p>
+                )}
+                {education.activities && (
+                  <div className="education-activities">
+                    <strong>Activities:</strong> {education.activities}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Certifications Section */}
+      <section className="certifications-section">
+        <div className="executive-container">
+          <div className="section-header">
+            <h2 className="section-title">Certifications</h2>
+            <p className="section-subtitle">Professional credentials validating expertise in cloud technologies</p>
+          </div>
+          
+          <div className="certifications-grid">
+            {certificationsData.map((cert, index) => (
+              <div key={index} className="certification-card">
+                <div className="certification-header">
+                  <div className="certification-icon">🏆</div>
+                  <div className="certification-content">
+                    <h3 className="certification-name">
+                      {cert.url ? (
+                        <a href={cert.url} target="_blank" rel="noopener noreferrer">
+                          {cert.name}
+                        </a>
+                      ) : (
+                        cert.name
+                      )}
+                    </h3>
+                    <div className="certification-authority">{cert.authority}</div>
+                    {cert.licenseNumber && (
+                      <div className="certification-license">
+                        License: {cert.licenseNumber}
+                      </div>
+                    )}
+                  </div>
+                </div>
+                {cert.startedOn && cert.finishedOn && (
+                  <div className="certification-dates">
+                    {cert.startedOn} - {cert.finishedOn}
+                  </div>
+                )}
+                {cert.url && (
+                  <div className="certification-actions">
+                    <a href={cert.url} target="_blank" rel="noopener noreferrer" className="cert-link">
+                      View Credential
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                        <polyline points="15,3 21,3 21,9"/>
+                        <line x1="10" y1="14" x2="21" y2="3"/>
+                      </svg>
+                    </a>
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </section>
