@@ -88,7 +88,7 @@ const Home = () => {
             </div>
             <div className="philosophy-grid">
               <div className="philosophy-card">
-                <div className="philosophy-icon">🎯</div>
+                <div className="philosophy-icon">⭐</div>
                 <h3>Purpose over hierarchy</h3>
                 <p>Leading with clear intent and meaningful direction rather than positional authority.</p>
               </div>
